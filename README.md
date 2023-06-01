@@ -1,5 +1,8 @@
 # vue-weather
 
+## Description
+Weather app where you can check the current forecast of preferred place.
+
 ## Download VueJS
 ```npm -g i  @vue/cli``` or ```yarn global add @vue/cli```</br>
 Choose ```default (babel, eslint)```
