@@ -13,6 +13,3 @@ App.vue -> line 34 -> you can paste your own key that you got before.
 
 ## Run Project
 ```yarn serve```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
