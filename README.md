@@ -1,6 +1,6 @@
 # vue-weather
 
-# [Deployed app](https://incredible-moonbeam-340408.netlify.app/)
+[Deployed app](https://incredible-moonbeam-340408.netlify.app/)
 
 ## Description
 Weather app where you can check the current forecast of preferred place.
