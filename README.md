@@ -1,28 +1,28 @@
 # Vue.js Weather App
 
-## Live Link / Demo Link: 🔗
+# Live Link / Demo Link: 🔗
 [Deployed app](https://incredible-moonbeam-340408.netlify.app/)
 
-## Table of Contents
+# Table of Contents
 * [About the Project](#about-the-project)
 * [Screenshots](#screenshots)
 * [Technologies Used](#technologies-used)
 * [Setup / Installation](#setup--installation)
 * [Approach](#approach)
 
-## About the Project: 📚
+# About the Project: 📚
 Welcome to the Vue Weather App! This project is a simple and intuitive weather application built using Vue.js, designed to provide real-time weather information for any location around the world.
 
-## Screenshots: 📷
-![Weather App](https://github.com/alibinauanov/vue-weather/blob/main/weather.gif)
+# Screenshots: 📷
+<img src="https://github.com/alibinauanov/vue-weather/blob/main/weather.gif" width="400" height="400">
 
-## Technologies Used: ☕️ 🐍 ⚛️
+# Technologies Used: ☕️ 🐍 ⚛️
 * Vue.js
 * JavaScript
 * Yarn
 * Open Weather Map API
 
-## Setup / Installation: 💻
+# Setup / Installation: 💻
 #### Download VueJS</br>
 ```npm -g i  @vue/cli``` or ```yarn global add @vue/cli```</br>
 Choose ```default (babel, eslint)```
@@ -37,7 +37,7 @@ App.vue -> line 34 -> you can paste your own key that you got before.
 #### Run Project</br>
 ```yarn serve```
 
-## Approach: 🚶
+# Approach: 🚶
 #### Design Patterns and Architecture
 The Vue Weather App follows a component-based architecture, a core principle of Vue.js development. It's organized into multiple Vue components that each have a specific responsibility, enhancing code readability, maintainability, and reusability.
 
