@@ -12,9 +12,12 @@
       </div>
 
       <div class="help-text" v-if="typeof weather.main == 'undefined'">
-        <p>Enter the name of the city in the Search Box</p>
+        <p>Type the name of the city in the Search Box</p>
       </div>
 
+      <div class="help-text" v-if="typeof weather.main == 'undefined'">
+        <p><span class="highlight">Press Enter</span> after writing the text in Search Box</p>
+      </div>
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
@@ -180,11 +183,16 @@ main {
 }
 
 .help-text p {
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: center;
   color: #FFF;
   font-size: 18px;
   font-weight: bold;
 }
+
+.highlight {
+  color: #FFA500; /* Set the desired color for the highlighted text */
+}
+
 
 </style>
