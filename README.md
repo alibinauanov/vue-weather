@@ -3,18 +3,11 @@
 ## Live Link / Demo Link: 🔗
 [Deployed app](https://incredible-moonbeam-340408.netlify.app/)
 
-## Table of Contents
-* [About the Project](#about-the-project)
-* [Screenshots](#screenshots)
-* [Technologies Used](#technologies-used)
-* [Setup / Installation](#setup--installation)
-* [Approach](#approach)
-
 ## About the Project: 📚
 Welcome to the Vue Weather App! This project is a simple and intuitive weather application built using Vue.js, designed to provide real-time weather information for any location around the world.
 
 ## Screenshots: 📷
-<img src="https://github.com/alibinauanov/vue-weather/blob/main/weather.gif" width="400" height="300">
+<img src="https://github.com/alibinauanov/vue-weather/blob/main/weather.gif" width="250" height="400">
 
 ## Technologies Used: ☕️ 🐍 ⚛️
 * Vue.js
