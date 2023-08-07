@@ -11,6 +11,11 @@
         />
       </div>
 
+      <div class="help-text" v-if="typeof weather.main == 'undefined'">
+        <p>Enter the name of the city in the Search Box</p>
+      </div>
+
+
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
           <div class="location">{{ weather.name }}, {{ weather.sys.country }}</div>
@@ -166,4 +171,20 @@ main {
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
+
+.help-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.help-text p {
+  margin-top: 150px;
+  text-align: center;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 </style>
