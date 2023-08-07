@@ -3,19 +3,18 @@
 ## Live Link / Demo Link: 🔗
 [Deployed app](https://incredible-moonbeam-340408.netlify.app/)
 
-## Table of Content: 📑
-* [About the Project](##about-the-project)
-* [Screenshots](##screenshots)
-* [Technologies Used](##technologies-used)
-* [Setup / Installation](##setup-installation)
-* [Approach](##approach)
-
+## Table of Contents
+* [About the Project](#about-the-project)
+* [Screenshots](#screenshots)
+* [Technologies Used](#technologies-used)
+* [Setup / Installation](#setup--installation)
+* [Approach](#approach)
 
 ## About the Project: 📚
 Welcome to the Vue Weather App! This project is a simple and intuitive weather application built using Vue.js, designed to provide real-time weather information for any location around the world.
 
 ## Screenshots: 📷
-!()[https://github.com/alibinauanov/vue-weather/blob/main/weather.gif]
+![Weather App](https://github.com/alibinauanov/vue-weather/blob/main/weather.gif)
 
 ## Technologies Used: ☕️ 🐍 ⚛️
 * Vue.js
@@ -26,20 +25,17 @@ Welcome to the Vue Weather App! This project is a simple and intuitive weather a
 ## Setup / Installation: 💻
 #### Download VueJS</br>
 ```npm -g i  @vue/cli``` or ```yarn global add @vue/cli```</br>
-Choose ```default (babel, eslint)```</br>
-</br>
+Choose ```default (babel, eslint)```
 
 #### Project setup</br>
-```vue create vue-weather```. vue-weather is name of folder, so you can change the name of folder</br>
-</br>
+```vue create vue-weather```. vue-weather is name of folder, so you can change the name of folder
 
 #### API
 Open this [link]([url](https://home.openweathermap.org/api_keys)) and create your own API KEY. Then copy your key.</br>
-App.vue -> line 34 -> you can paste your own key that you got before.</br>
-</br>
+App.vue -> line 34 -> you can paste your own key that you got before.
 
 #### Run Project</br>
-```yarn serve```</br>
+```yarn serve```
 
 ## Approach: 🚶
 #### Design Patterns and Architecture
